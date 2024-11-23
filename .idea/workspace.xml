@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="291e786a-225a-4a56-9424-5663e4f7dec8" name="Changes" comment="URL API">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InformacoesCep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileCep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetoCEPAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoCEPAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CEP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InformacoesCep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InformacoesCep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +34,12 @@
     &quot;assignee&quot;: &quot;RafaelPierotti&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/RafaelPierotti/ProjetoCEPAPI.git&quot;,
-    &quot;accountId&quot;: &quot;2c961500-5870-4261-b97c-7d037ba2418a&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/RafaelPierotti/ProjetoCEPAPI.git",
+    "accountId": "1c32fe07-bc08-4141-85ef-98c7391521c0"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -56,11 +56,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Sentry/Documents/Programação/Java/ProjetoCEPAPI",
+    "last_opened_file_path": "C:/Users/Rafael/Documents/Programação/Java/ProjetoCEPAPI",
     "onboarding.tips.debug.path": "C:/Users/Sentry/Documents/Programação/Java/ProjetoCEPAPI/src/Main.java",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

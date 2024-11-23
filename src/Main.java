@@ -11,41 +11,19 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception{
-        Scanner scanner = new Scanner(System.in);
-        Gson gson = new GsonBuilder()
-                .setPrettyPrinting()
-                .create();
 
-        System.out.println("Informe o seu cep: ");
-        var cep = scanner.nextLine();
-
-        String url = "https://viacep.com.br/ws/" + cep + "/json/";
-
-        Cep meuCep = null;
+        Cep cep = new Cep();
+        FileCep fileCep = new FileCep();
 
         try {
-            HttpClient client = HttpClient.newHttpClient();
-            HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create(url))
-                    .build();
-            HttpResponse<String> response = client
-                    .send(request, HttpResponse.BodyHandlers.ofString());
-            String json = response.body();
+            cep.menu();
 
-            InformacoesCep minhasInformacoesCep = gson.fromJson(json, InformacoesCep.class);
-
-            meuCep = new Cep(minhasInformacoesCep);
-
-            System.out.println(meuCep);
-
-        } catch (JsonSyntaxException e){
-            System.out.println("CEP Inválido");
+            InformacoesCep minhasInformacoesCep = cep.bucaCep(cep.getCep());
+            System.out.println(minhasInformacoesCep);
+            fileCep.file(minhasInformacoesCep);
+        } catch (RuntimeException e){
             System.out.println(e.getMessage());
         }
 
-        FileWriter file = new FileWriter("cep.json");
-        file.write(gson.toJson(meuCep));
-        file.close();
-        System.out.println("Programa finalizado");
     }
 }
